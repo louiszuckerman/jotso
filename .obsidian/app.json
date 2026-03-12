@@ -1,0 +1,11 @@
+{
+  "openBehavior": "",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_ Inbox",
+  "attachmentFolderPath": "./",
+  "userIgnoreFilters": [
+    "Utils/",
+    "_ Views/"
+  ],
+  "alwaysUpdateLinks": true
+}

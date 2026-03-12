@@ -1,0 +1,38 @@
+{
+  "quickadd:choice:86c25546-c152-43eb-b2d8-7cbd6d5aeeac": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "quickadd:choice:b4b4f608-5d34-4b82-a7b1-ae1cc6fc8501": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "quickadd:choice:a9b2345a-60b9-4965-ac33-0e64a4bf75e5": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Z"
+    }
+  ]
+}
