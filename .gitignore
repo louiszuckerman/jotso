@@ -1,0 +1,20 @@
+# Obsidian workspace state (personal, ephemeral)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/*.cache
+.obsidian/cache/
+
+# Plugin binaries (users install plugins themselves via Community Plugins)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json
+
+# Agent artifacts
+.junie/
+
+# macOS
+.DS_Store
+
+# import script itself
+.bin/import.sh
