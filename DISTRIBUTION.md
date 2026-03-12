@@ -31,11 +31,11 @@ jotso/
 ├── Daily/
 │   └── .gitkeep
 ├── People/
-│   └── .gitkeep
+│   └── _ People.md
 ├── Projects/
-│   └── .gitkeep
+│   └── _ Projects.md
 ├── Ideas/
-│   └── .gitkeep
+│   └── _ Ideas.md
 ├── Attachments/
 │   └── .gitkeep
 ├── Excalidraw/
@@ -101,10 +101,16 @@ echo ""
 
 # --- Empty content folders (with .gitkeep so git tracks them) ---
 echo "• Empty content folders"
-for dir in Daily People Projects Ideas Attachments Excalidraw "_ Inbox"; do
+for dir in Daily Attachments Excalidraw "_ Inbox"; do
     mkdir -p "$DEST/$dir"
     touch "$DEST/$dir/.gitkeep"
 done
+
+# --- Empty MOC index files (so Regenerate Indexes has something to find) ---
+echo "• MOC index files"
+touch "$DEST/People/_ People.md"
+touch "$DEST/Projects/_ Projects.md"
+touch "$DEST/Ideas/_ Ideas.md"
 
 # --- Utils (templates, scripts, dataview) ---
 echo "• Utils/"
