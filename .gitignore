@@ -10,8 +10,9 @@
 .obsidian/plugins/*/styles.css
 .obsidian/plugins/*/manifest.json
 
-# Agent artifacts
+# Agent & IDE artifacts
 .junie/
+.idea/
 
 # macOS
 .DS_Store
